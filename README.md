@@ -1,2 +1,2 @@
 # Python-Basic
-Các khái niệm cơ bản trong Python
+Basic concepts in Python
