@@ -3,7 +3,7 @@
 # open and close the file
 
 str1 = open("filename.txt", "wb")
-# ta còn cách mở file khác như sau: with open("filename.txt", "ưb") as str1:
+# ta còn cách mở file khác như sau: with open("filename.txt", "wb") as str1:
 # Đối số str1 là một giá trị chuỗi chứa tên của các file mà bạn muốn truy cập. 
 # filename.txt là tên file mà bạn muốn mở. Nếu file này ko nằm chung tệp với file python đang viết thì bạn phải chỉ rõ đường dẫn
 # Các "wb" xác định các chế độ của file được mở ra như read, write, append,... Đây là thông số tùy chọn và chế độ truy cập file mặc định là read (r).
