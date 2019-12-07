@@ -44,3 +44,16 @@ try:
 finally: # các lệnh trong khối finally luôn chạy cho dù có lỗi xảy ra hay ko
  f.close()
 #ta có thể yên tâm file được đóng đúng ngay cả khi phát sinh ngoại lệ khiến chương trình dừng đột ngột.
+
+# lệnh Assert dùng để kiểm tra điều kiện có đúng hay ko. nếu ko thì xảy ra AsertionError
+temp = 10
+assert temp > 20 # biểu thức temp > 20 phải có dạng True hoặc False
+print("after assert")
+# kết quả in ra 
+#AssertionError
+
+# ta cũng có thể thêm text sau điều kiện để nó in ra sau chữ AssertionError
+temp = 10
+assert temp > 20, "temp have to > 20"
+# kết quả in ra 
+#AssertionError:temp have to > 20
