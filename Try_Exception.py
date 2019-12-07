@@ -23,11 +23,19 @@ print("After block try-except-else")
 try:
  x = input('Nhập một số trong khoảng 1-10: ')
  if x<1 or x>10:
- raise Exception
+ raise Exception # cau lenh raise la de tao ra exception, moi khi co cau lenh raise thi 1 exception dc tao ra
  print("Bạn vừa nhập một số hợp lệ")
 except:
  print("Số bạn vừa nhập nằm ngoài khoảng cho phép")
 # nếu bạn nhập một số bên ngoài các phạm vi cho phép, các lệnh print trong các except block sẽ được thực hiện.
+
+# raise Exceptions dung de tao ra 1 exception
+print(1)
+raise ValueError
+print(2)
+# ket qua in ra man hinh la
+#1
+#ValueError
 
 # khối lệnh try-finally
 try:
